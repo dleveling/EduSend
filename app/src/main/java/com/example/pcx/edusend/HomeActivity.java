@@ -22,6 +22,9 @@ public class HomeActivity extends AppCompatActivity {
         lstBook.add(new Book("The Test Book","Sci-Fi","A Sci-Fi Book",R.drawable.img1));
         lstBook.add(new Book("The Test Book2","Sci-Fi2","A Sci-Fi Book2",R.drawable.img1));
         lstBook.add(new Book("The Test Book3","Sci-Fi3","A Sci-Fi Book3",R.drawable.img1));
+        lstBook.add(new Book("The Test Book4","Sci-Fi4","A Sci-Fi Book4",R.drawable.img1));
+        lstBook.add(new Book("The Test Book5","Sci-Fi5","A Sci-Fi Book5",R.drawable.img1));
+        lstBook.add(new Book("The Test Book6","Sci-Fi6","A Sci-Fi Book6",R.drawable.img1));
 
         RecyclerView myrv = (RecyclerView) findViewById(R.id.recyclerview_id);
         RecyclerViewAdapter myAdapter = new RecyclerViewAdapter(this,lstBook);
