@@ -27,6 +27,6 @@ public class HomeActivity extends AppCompatActivity {
         RecyclerViewAdapter myAdapter = new RecyclerViewAdapter(this,lstBook);
         myrv.setLayoutManager(new GridLayoutManager(this,3));
         myrv.setAdapter(myAdapter);
-
+        //testGIT
     }
 }
